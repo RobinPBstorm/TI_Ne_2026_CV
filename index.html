@@ -4,10 +4,156 @@
     <meta charset="UTF-8">
     <meta name="author" content="encore moi">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/main.css">
     <title>CV de ...</title>
 </head>
 <body>
-    <h1>Hello world!</h1>
+    <header>
+        <div class="image-profile">
+            <img class="hidden"
+                src="./assets/images/personnage-image.png" 
+                alt="mon personnage">
+        </div>
+        <section>
+            <h1 class="hidden">Vendeur de Masques</h1>
+            <p>Commerçant passionné par les objets rares et mystérieux, je mets mon expertise, mon sens de la négociation et mon réseau international au service de collectionneurs exigeants.</p>
+
+        </section>
+    </header>
+    <main>
+        <aside>
+            <div class="aside-top-decoration"></div>
+            <article>
+                <div class="title">
+                    <img class="tile-icon" 
+                        src="assets/images/icone-vache.png" 
+                        alt="icone vache">
+                    <h2>A propos de ...</h2>
+                </div>
+                <dl>
+                    <dt>Métier :</dt>
+                    <dd>
+                        <p>Marchand ambulant / Commerçant spécialisé en objets mystiques</p>
+                    </dd>
+                    <dt>Localisation : </dt>
+                    <dd class="hidden">
+                        <p>Hyrule et Termina</p>
+                    </dd>
+                    <dt>Spécialité : </dt>
+                    <dd class="hidden">
+                        <p>Vente, échange et collection de masques</p>
+                    </dd>
+                    <dt>Employeur : </dt>
+                    <dd>
+                        <p>Indépendant</p>
+                    </dd>
+                </dl>
+            </article>
+            <article>
+                
+                <div class="title">
+                    <img class="tile-icon" 
+                        src="assets/images/icone-cochon.png" 
+                        alt="icone cochon">
+                    <h2>Compétences</h2>
+                </div>
+                
+                <ul>
+                    <li>Commerce et négociation</li>
+                    <li>Expertise en objets de collection</li>
+                    <li>Évaluation d'objets rares</li>
+                    <li>Mobilité internationale</li>
+                    <li>Gestion de clientèle</li>
+                    <li>Troc et négociation complexe</li>
+                    <li>Connaissance des objets magiques</li>
+                    <li>Gestion du stress en situation inhabituelle</li>
+                </ul>
+            </article>
+            <div class="aside-bottom-decoration"></div>
+        </aside>
+        <section>
+            <article>
+                <div class="title">
+                    <img class="tile-icon" 
+                        src="assets/images/icone-renard.png" 
+                        alt="icone renard">
+                    <h2>Expérience professionnelle</h2>
+                </div>
+                <p>Marchand ambulant — Indépendant (Depuis plusieurs années)</p>
+                <br>
+                <ul class="hidden">
+                    <li>
+                        <p>Vente et échange de masques aux propriétés diverses.</p>
+                    </li>
+                    <li>
+                        <p>Identification et estimation d'objets rares et magiques.</p>
+                    </li>
+                    <li>
+                        <p>Négociation avec une clientèle très variée.</p>
+                    </li>
+                    <li>
+                        <p>Déplacements fréquents entre différentes régions.</p>
+                    </li>
+                    <li>
+                        <p>Gestion d'un stock d'objets de valeur.</p>
+                    </li>
+                    <li>
+                        <p>Recherche et récupération de pièces de collection.</p>
+                    </li>
+                    <li>
+                        <p>Développement d'un réseau de contacts dans différents royaumes.</p>
+                    </li>
+                    <li>
+                        <p>Gestion de situations commerciales particulièrement... imprévisibles.</p>
+                    </li>
+                </ul>
+                </p>
+            </article>
+            <article>
+                <div class="title">
+                    <img class="tile-icon" 
+                        src="assets/images/icone-lapin.png" 
+                        alt="icone lapin">
+                    <h2>Formation</h2>
+                </div>
+                <ul>
+                    <li><p>Académie des Arts Mystiques et du Commerce Itinérant</p></li>
+                    <li><p>Diplôme en Commerce spécialisation : objets enchantés et artefacts</p></li>
+                </ul>
+            </article>
+            <article>
+                <div class="title">
+                    <img class="tile-icon" 
+                        src="assets/images/icone-facteur.png" 
+                        alt="icone facteur">
+                    <h2>Expérience particulièrement notable</h2>
+                </div>
+                <ul class="hidden">
+                    <li><P>Récupération d'un masque ancien aux propriétés inconnues</P></li>
+                    <li><p>Mission ayant nécessité de suivre un jeune aventurier à travers Termina, de négocier avec plusieurs individus et de résoudre une situation impliquant une malédiction, une lune menaçante et une boucle temporelle de trois jours.</p></li>
+                </ul>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div class="title">
+            <img class="tile-icon" 
+                src="assets/images/icone-pierre.png" 
+                alt="icone pierre">
+            <h2>Le contacter ?</h2>
+        </div>
+        <form>
+            <fieldset>
+                <label for="">Votre mail</label>
+                <input type="text" pattern="^[^@]+@[^@]+\.[^@]+$">
+            </fieldset>
+            <fieldset>
+                <label for="">Votre message</label>
+                <textarea name="" id=""></textarea>
+            </fieldset>
+            <button type="submit" >Envoyer</button>
+        </form>
+    </footer>
 </body>
 </html>
